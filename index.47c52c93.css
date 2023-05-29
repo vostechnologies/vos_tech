@@ -13,9 +13,63 @@
 
 }
 
+.skill-img{
+    height: 100px;
+    width: 100px;
+}
+
 .skills-text {
     margin-bottom: 0;
     font-size: 1.08em;
     line-height: 124%;
     color: #000;
+}
+
+.row_card{
+    margin-bottom:10px
+}
+
+ .rectangle {
+     width: 450px;
+     height: 200px;
+     background-color: white;
+     border-radius: 15px 0 0 15px;
+ }
+
+ .circle {
+     width: 200px;
+     height: 200px;
+     background-color: white;
+     border-radius: 50%;
+ }
+
+ .rectangle:last-child {
+     border-radius: 0 15px 15px 0;
+ }
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-animation 5s linear infinite;
+    font-family: Roxboroughcf, sans-serif;
+    color: #ffc824;
+    font-size: 11vw;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: none;
+    font-style: italic;
+}
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }

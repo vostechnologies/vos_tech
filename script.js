@@ -5,3 +5,4 @@ setInterval(() =>{
     time.innerHTML=d.toLocaleTimeString();
 
 },1000)
+
