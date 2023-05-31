@@ -1,498 +1,382 @@
-.divprefooters-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-}
+ * {
+     margin: 0px;
+     font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+ }
 
-.divprefooters-divprefooters {
-    width: 1920px;
-    height: 828px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    background-color: rgba(255, 200, 36, 1);
-}
+ #RootWrapperFrame1 {
+     min-height: 100vh;
+     position: relative;
+ }
 
-.divprefooters-divfhholder {
-    top: 19.18000030517578px;
-    left: 38.38999938964844px;
-    width: 1843px;
-    height: 307.5899963378906px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #DivDivBlock89 {
+     width: 1920px;
+     height: 117px;
+     background-color: black;
+     position: absolute;
+     left: 0px;
+     top: 828px;
+ }
 
-.divprefooters-divfooterh {
-    top: 0px;
-    left: 0px;
-    width: 1843px;
-    height: 159.58999633789062px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #DivFooter {
+     height: 97px;
+     position: absolute;
+     left: 0px;
+     top: 20px;
+     right: 0px;
+     opacity: 0.4;
+ }
 
-.divprefooters-divprefooter {
-    top: 0px;
-    left: 355.70001220703125px;
-    width: 1132px;
-    display: flex;
-    padding: 0 5.81005859375px 5.589996337890625px 0;
-    position: absolute;
-    align-items: flex-start;
-}
+ #Feb {
+     color: white;
+     text-overflow: ellipsis;
+     font-size: 24px;
+     font-weight: normal;
+     line-height: 0px;
+     text-align: left;
+     width: 197px;
+     min-height: 96px;
+     position: absolute;
+     left: 841px;
+     top: 0px;
+     height: 96px;
+ }
 
-.divprefooters-text {
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    font-size: 137.60000610351562px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #Vostechnologies2023AllRightsReserved {
+     color: white;
+     text-overflow: ellipsis;
+     font-size: 20px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: left;
+     width: 427px;
+     min-height: 28px;
+     position: absolute;
+     left: 1475px;
+     top: 34px;
+     height: 28px;
+ }
 
-.divprefooters-text01 {
-    font-weight: 700;
-}
+ #LinkPrivacyPolicy {
+     color: white;
+     text-overflow: ellipsis;
+     font-size: 20px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: left;
+     width: 142px;
+     min-height: 28px;
+     position: absolute;
+     left: 28px;
+     top: 41px;
+     height: 28px;
+ }
 
-.divprefooters-text02 {
-    font-weight: 700;
-}
+ #DivDivBlock88 {
+     height: 20px;
+     background-color: rgb(255, 200, 36);
+     border-bottom-right-radius: 40px;
+     border-bottom-left-radius: 40px;
+     position: absolute;
+     left: 0px;
+     top: -1px;
+     right: 0px;
+ }
 
-.divprefooters-text03 {
-    font-weight: 700;
-}
+ #DivPreFooterS {
+     width: 1920px;
+     height: 828px;
+     background-color: rgb(255, 200, 36);
+     position: absolute;
+     left: 0px;
+     top: 0px;
+ }
 
-.divprefooters-divfooterh1 {
-    top: 138px;
-    left: 0px;
-    width: 1843px;
-    height: 169.58999633789062px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #DivFhHolder {
+     width: 1843px;
+     height: 308px;
+     position: absolute;
+     left: 38px;
+     top: 19px;
+ }
 
-.divprefooters-divprefooter1 {
-    top: 0px;
-    left: 293.44000244140625px;
-    width: 1256px;
-    height: 169.58999633789062px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #DivFooterH {
+     width: 1843px;
+     height: 160px;
+     overflow: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+ }
 
-.divprefooters-text05 {
-    top: -0.18017578125px;
-    left: 65.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 146.60000610351562px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivPreFooter {
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: row;
+     align-items: center;
+     flex: none;
+     width: 1132px;
+     height: 160px;
+     position: absolute;
+     left: calc((calc((50% + -0px)) - 566px));
+     top: calc((calc((50% + 0px)) - 80px));
+ }
 
-.divprefooters-text07 {
-    left: 278.2300109863281px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 132.60000610351562px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivPreFooter_0001 {
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: row;
+     align-items: flex-start;
+     flex: none;
+     box-sizing: border-box;
+     padding-bottom: 6px;
+     padding-right: 6px;
+ }
 
-.divprefooters-text09 {
-    top: -0.18017578125px;
-    left: 467.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    width: 498px;
-    height: auto;
-    position: absolute;
-    font-size: 153.60000610351562px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #UsStartsWithYou {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 138px;
+     font-weight: 700;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+ }
 
-.divprefooters-text11 {
-    left: 833.5800170898438px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 127.5999984741211px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivFooterH_0001 {
+     width: 1843px;
+     height: 170px;
+     overflow: hidden;
+     position: absolute;
+     left: 0px;
+     top: 138px;
+ }
 
-.divprefooters-text13 {
-    top: -55.18017578125px;
-    left: 615.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    width: 170px;
-    height: auto;
-    position: absolute;
-    font-size: 32px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivPreFooter_0002 {
+     width: 1256px;
+     height: 170px;
+     position: absolute;
+     left: calc((calc((50% + 0px)) - 628px));
+     top: calc((calc((50% + 0px)) - 85px));
+ }
 
-.divprefooters-divfhholder1 {
-    top: 19.18017578125px;
-    left: 38.389892578125px;
-    width: 1843px;
-    height: 307.5899963378906px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #We {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 147px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+     position: absolute;
+     left: 65px;
+     top: -0px;
+ }
 
-.divprefooters-divfooterh2 {
-    top: 0px;
-    left: 0px;
-    width: 1843px;
-    height: 159.58999633789062px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #EmphasisCare {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 133px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+     position: absolute;
+     left: 278px;
+     top: 0px;
+ }
 
-.divprefooters-divprefooter2 {
-    top: 0px;
-    left: 355.70001220703125px;
-    width: 1132px;
-    display: flex;
-    padding: 0 5.81005859375px 5.589996337890625px 0;
-    position: absolute;
-    align-items: flex-start;
-}
+ #Here {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 154px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+     width: 506px;
+     position: absolute;
+     left: 467px;
+     top: -0px;
+ }
 
-.divprefooters-text14 {
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    font-size: 137.60000610351562px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #EmphasisRespect {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 128px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+     position: absolute;
+     left: 834px;
+     top: 0px;
+ }
 
-.divprefooters-text15 {
-    font-weight: 700;
-}
+ #NaN {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 32px;
+     font-family: Inter, sans-serif;
+     font-weight: 700;
+     letter-spacing: -6px;
+     line-height: 154px;
+     text-align: left;
+     width: 170px;
+     min-height: 142px;
+     position: absolute;
+     left: 615px;
+     top: -55px;
+     height: 142px;
+ }
 
-.divprefooters-text16 {
-    font-weight: 700;
-}
+ #DivLines02 {
+     height: 1px;
+     background-color: rgb(192, 165, 60);
+     position: absolute;
+     left: 38px;
+     top: 348px;
+     right: 38px;
+ }
 
-.divprefooters-text17 {
-    font-weight: 700;
-}
+ #DivHolder60 {
+     height: 139px;
+     overflow: hidden;
+     position: absolute;
+     left: 38px;
+     top: 349px;
+     right: 38px;
+ }
 
-.divprefooters-divfooterh3 {
-    top: 138px;
-    left: 0px;
-    width: 1843px;
-    height: 169.58999633789062px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #WannaTakeItToTheNextStep {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 20px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: left;
+     text-transform: uppercase;
+     width: 361px;
+     min-height: 51px;
+     position: absolute;
+     left: 742px;
+     top: 46px;
+     height: 51px;
+ }
 
-.divprefooters-divprefooter3 {
-    top: 0px;
-    left: 293.44000244140625px;
-    width: 1256px;
-    height: 169.58999633789062px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #Ellipse3 {
+     width: 20px;
+     height: 20px;
+     background-color: black;
+     border-radius: 20px / 20px;
+     position: absolute;
+     left: 659px;
+     top: 62px;
+ }
 
-.divprefooters-text19 {
-    top: -0.18017578125px;
-    left: 65.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 146.60000610351562px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #Ellipse4 {
+     width: 20px;
+     height: 20px;
+     background-color: black;
+     border-radius: 20px / 20px;
+     position: absolute;
+     left: 1166px;
+     top: 62px;
+ }
 
-.divprefooters-text21 {
-    left: 278.2300109863281px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 132.60000610351562px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivLines02_0001 {
+     height: 1px;
+     background-color: rgb(192, 165, 60);
+     position: absolute;
+     left: 38px;
+     top: 488px;
+     right: 38px;
+ }
 
-.divprefooters-text23 {
-    top: -0.18017578125px;
-    left: 467.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    width: 498px;
-    height: auto;
-    position: absolute;
-    font-size: 153.60000610351562px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivLines02_0002 {
+     height: 1px;
+     background-color: rgb(192, 165, 60);
+     position: absolute;
+     left: 38px;
+     top: 619px;
+     right: 38px;
+ }
 
-.divprefooters-text25 {
-    left: 833.5800170898438px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 127.5999984741211px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivHolder60_0001 {
+     height: 208px;
+     overflow: hidden;
+     position: absolute;
+     left: 11px;
+     top: 619px;
+     right: 66px;
+ }
 
-.divprefooters-text27 {
-    top: -55.18017578125px;
-    left: 615.170166015625px;
-    color: rgba(0, 0, 0, 1);
-    width: 170px;
-    height: auto;
-    position: absolute;
-    font-size: 32px;
-    font-style: italic;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 153.60000610351562px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #DivHolder60_0002 {
+     height: 130px;
+     overflow: hidden;
+     position: absolute;
+     left: 38px;
+     top: 39px;
+     right: -38px;
+ }
 
-.divprefooters-divlines02 {
-    top: 347.7799987792969px;
-    left: 38.38999938964844px;
-    width: 1843px;
-    height: 1px;
-    position: absolute;
-}
+ #Whatsapp {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 58px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 44px;
+     text-align: left;
+     position: absolute;
+     left: 326px;
+     top: 53px;
+ }
 
-.divprefooters-divholder60 {
-    top: 348.7799987792969px;
-    left: 38.38999938964844px;
-    width: 1843px;
-    height: 138.9199981689453px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
+ #Linkedin {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 58px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 44px;
+     text-align: left;
+     position: absolute;
+     left: 1274px;
+     top: 53px;
+ }
 
-.divprefooters-text28 {
-    top: 46.22021484375px;
-    left: 741.610107421875px;
-    color: rgba(0, 0, 0, 1);
-    width: 361px;
-    height: auto;
-    position: absolute;
-    font-size: 20.040000915527344px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 20px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #Instagram {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 58px;
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     line-height: 44px;
+     text-align: left;
+     position: absolute;
+     left: 800px;
+     top: 53px;
+ }
 
-.divprefooters-ellipse3 {
-    top: 62.22021484375px;
-    left: 658.610107421875px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-}
-
-.divprefooters-ellipse4 {
-    top: 62.22021484375px;
-    left: 1165.610107421875px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-}
-
-.divprefooters-divlines021 {
-    top: 487.70001220703125px;
-    left: 38.38999938964844px;
-    width: 1843px;
-    height: 1px;
-    position: absolute;
-}
-
-.divprefooters-divlines022 {
-    top: 618.7000122070312px;
-    left: 38.38999938964844px;
-    width: 1843px;
-    height: 1px;
-    position: absolute;
-}
-
-.divprefooters-divholder601 {
-    top: 619px;
-    left: 11px;
-    width: 1843px;
-    height: 207.88999938964844px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
-
-.divprefooters-divholder602 {
-    top: 39px;
-    left: 38px;
-    width: 1843px;
-    height: 130px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
-
-.divprefooters-text30 {
-    top: 53px;
-    left: 326px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 57.599998474121094px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 44px;
-    font-stretch: normal;
-    text-decoration: none;
-}
-
-.divprefooters-text32 {
-    top: 53px;
-    left: 1274px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 57.599998474121094px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 44px;
-    font-stretch: normal;
-    text-decoration: none;
-}
-
-.divprefooters-text34 {
-    top: 53px;
-    left: 800px;
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    position: absolute;
-    font-size: 57.599998474121094px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 44px;
-    font-stretch: normal;
-    text-decoration: none;
-}
-
-.divprefooters-text36 {
-    top: 502px;
-    left: 426px;
-    color: rgba(0, 0, 0, 1);
-    width: 1068px;
-    height: auto;
-    position: absolute;
-    font-size: 57.599998474121094px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 44px;
-    font-stretch: normal;
-    text-decoration: none;
-}
+ #VostechnologiesindiaGmailCom {
+     color: black;
+     text-overflow: ellipsis;
+     font-size: 58px;
+     font-family: Inter, sans-serif;
+     font-weight: 700;
+     line-height: 44px;
+     text-align: center;
+     width: 1068px;
+     min-height: 102px;
+     position: absolute;
+     left: 426px;
+     top: 502px;
+     height: 102px;
+ }

@@ -245,3 +245,84 @@ canvas.webgl {
         transform: translatey(0px);
     }
 }
+
+.divfooter {
+    width: 1920px;
+    height: 96.8px;
+    padding: 0 18px 0.8px 28px;
+    opacity: 0.45;
+}
+
+.Link-Privacy-policy {
+    width: 133.8px;
+    height: 28px;
+    margin: 41px 679.2px 27px 0;
+    opacity: 0.45;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.feb {
+    width: 189px;
+    height: 96px;
+    margin: 0 40px 0 40.2px;
+    opacity: 0.45;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.feb .text-style-1 {
+    font-weight: bold;
+}
+
+.-vostechnologies-2023-All-rights-reserved {
+    width: 427px;
+    height: 28px;
+    margin: 34px 0 34px 445px;
+    opacity: 0.45;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.divholder-60 {
+    width: 1843.2px;
+    height: 207.9px;
+    margin: 15px 27.4px 0 0;
+    padding: 39px 0 38.9px 38px;
+}
+
+.whatsapp {
+    width: 245px;
+    height: 44px;
+    margin: 0 229px 0 0;
+    font-family: Inter;
+    font-size: 57.6px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.76;
+    letter-spacing: -3.17px;
+    text-align: left;
+    color: #000;
+}
