@@ -1,0 +1,498 @@
+.divprefooters-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divprefooters-divprefooters {
+    width: 1920px;
+    height: 828px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 200, 36, 1);
+}
+
+.divprefooters-divfhholder {
+    top: 19.18000030517578px;
+    left: 38.38999938964844px;
+    width: 1843px;
+    height: 307.5899963378906px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divfooterh {
+    top: 0px;
+    left: 0px;
+    width: 1843px;
+    height: 159.58999633789062px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divprefooter {
+    top: 0px;
+    left: 355.70001220703125px;
+    width: 1132px;
+    display: flex;
+    padding: 0 5.81005859375px 5.589996337890625px 0;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.divprefooters-text {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 137.60000610351562px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text01 {
+    font-weight: 700;
+}
+
+.divprefooters-text02 {
+    font-weight: 700;
+}
+
+.divprefooters-text03 {
+    font-weight: 700;
+}
+
+.divprefooters-divfooterh1 {
+    top: 138px;
+    left: 0px;
+    width: 1843px;
+    height: 169.58999633789062px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divprefooter1 {
+    top: 0px;
+    left: 293.44000244140625px;
+    width: 1256px;
+    height: 169.58999633789062px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-text05 {
+    top: -0.18017578125px;
+    left: 65.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 146.60000610351562px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text07 {
+    left: 278.2300109863281px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 132.60000610351562px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text09 {
+    top: -0.18017578125px;
+    left: 467.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    width: 498px;
+    height: auto;
+    position: absolute;
+    font-size: 153.60000610351562px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text11 {
+    left: 833.5800170898438px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 127.5999984741211px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text13 {
+    top: -55.18017578125px;
+    left: 615.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    width: 170px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-divfhholder1 {
+    top: 19.18017578125px;
+    left: 38.389892578125px;
+    width: 1843px;
+    height: 307.5899963378906px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divfooterh2 {
+    top: 0px;
+    left: 0px;
+    width: 1843px;
+    height: 159.58999633789062px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divprefooter2 {
+    top: 0px;
+    left: 355.70001220703125px;
+    width: 1132px;
+    display: flex;
+    padding: 0 5.81005859375px 5.589996337890625px 0;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.divprefooters-text14 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 137.60000610351562px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text15 {
+    font-weight: 700;
+}
+
+.divprefooters-text16 {
+    font-weight: 700;
+}
+
+.divprefooters-text17 {
+    font-weight: 700;
+}
+
+.divprefooters-divfooterh3 {
+    top: 138px;
+    left: 0px;
+    width: 1843px;
+    height: 169.58999633789062px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divprefooter3 {
+    top: 0px;
+    left: 293.44000244140625px;
+    width: 1256px;
+    height: 169.58999633789062px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-text19 {
+    top: -0.18017578125px;
+    left: 65.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 146.60000610351562px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text21 {
+    left: 278.2300109863281px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 132.60000610351562px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text23 {
+    top: -0.18017578125px;
+    left: 467.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    width: 498px;
+    height: auto;
+    position: absolute;
+    font-size: 153.60000610351562px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text25 {
+    left: 833.5800170898438px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 127.5999984741211px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text27 {
+    top: -55.18017578125px;
+    left: 615.170166015625px;
+    color: rgba(0, 0, 0, 1);
+    width: 170px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 153.60000610351562px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-divlines02 {
+    top: 347.7799987792969px;
+    left: 38.38999938964844px;
+    width: 1843px;
+    height: 1px;
+    position: absolute;
+}
+
+.divprefooters-divholder60 {
+    top: 348.7799987792969px;
+    left: 38.38999938964844px;
+    width: 1843px;
+    height: 138.9199981689453px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-text28 {
+    top: 46.22021484375px;
+    left: 741.610107421875px;
+    color: rgba(0, 0, 0, 1);
+    width: 361px;
+    height: auto;
+    position: absolute;
+    font-size: 20.040000915527344px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-ellipse3 {
+    top: 62.22021484375px;
+    left: 658.610107421875px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.divprefooters-ellipse4 {
+    top: 62.22021484375px;
+    left: 1165.610107421875px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.divprefooters-divlines021 {
+    top: 487.70001220703125px;
+    left: 38.38999938964844px;
+    width: 1843px;
+    height: 1px;
+    position: absolute;
+}
+
+.divprefooters-divlines022 {
+    top: 618.7000122070312px;
+    left: 38.38999938964844px;
+    width: 1843px;
+    height: 1px;
+    position: absolute;
+}
+
+.divprefooters-divholder601 {
+    top: 619px;
+    left: 11px;
+    width: 1843px;
+    height: 207.88999938964844px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-divholder602 {
+    top: 39px;
+    left: 38px;
+    width: 1843px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.divprefooters-text30 {
+    top: 53px;
+    left: 326px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 57.599998474121094px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 44px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text32 {
+    top: 53px;
+    left: 1274px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 57.599998474121094px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 44px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text34 {
+    top: 53px;
+    left: 800px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 57.599998474121094px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 44px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.divprefooters-text36 {
+    top: 502px;
+    left: 426px;
+    color: rgba(0, 0, 0, 1);
+    width: 1068px;
+    height: auto;
+    position: absolute;
+    font-size: 57.599998474121094px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 44px;
+    font-stretch: normal;
+    text-decoration: none;
+}
