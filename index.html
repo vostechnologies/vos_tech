@@ -1,207 +1,230 @@
-    <!DOCTYPE html>
-    <html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>VOS Technologies</title>
-        
-    
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.counterup/1.0.0/jquery.counterup.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        <link rel="stylesheet" type="text/css" href="index_2.css">
-        <link rel="stylesheet" type="text/css" href="index_1.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VOS Technologies</title>
 
 
-        <script>!function () { document.documentElement.className = "js"; var e, t; (t = document.createElement("style")).innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e || alert("Please view this demo in a modern browser that supports CSS Variables.") }();</script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.counterup/1.0.0/jquery.counterup.min.css"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="index_2.css">
+    <link rel="stylesheet" type="text/css" href="index_1.css">
 
 
-    </head>
 
-    <body class="loading">
-        <main>
-            <div class="frame">
-                <div class="frame__title-wrap">
-                    <h1 class="frame__title" id="current-time"></h1>
-                </div>
-                <nav class="frame__links">
-                    <a href="#" data-scroll="#home">Home</a>
-                    <a href="#" data-scroll="#services">Services</a>
-                    <a href="#" data-scroll="#contact">Contact</a>
-                </nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="loading">
+    <main>
+        <div class="frame">
+            <div class="frame__title-wrap">
+                <h1 class="frame__title" id="current-time"></h1>
             </div>
+            <nav class="frame__links">
+                <a href="#" data-scroll="#home">Home</a>
+                <a href="#" data-scroll="#services">Services</a>
+                <a href="#" data-scroll="#contact">Contact</a>
+            </nav>
+        </div>
 
-            <div class="content ">
-                <div class="scroll__stage">
-                    <div class="scroll__content ">
-                        <section id="home" class="section text-center" style="min-height:100vh">
-                            <div class="section__title">
-                                <div>
-                                    <h2 class="section__title-text text-center hero-title">vosnet</h2>
-                                </div>
-                                <div>
-                                <p class="col-12 text-center" style="margin-top: 20px;">the sky isn't the limit</p>
-                                </div>
+        <div class="content ">
+            <div class="scroll__stage">
+                <div class="scroll__content ">
+                    <section id="home" class="section text-center" style="min-height:100vh">
+                        <div class="section__title">
+                            <div>
+                                <h2 class="section__title-text text-center hero-title">vosnet</h2>
                             </div>
-                        </section>
+                            <div>
+                                <p class="col-12 text-center" style="margin-top: 20px;">the sky isn't the limit</p>
+                            </div>
+                        </div>
+                    </section>
 
-                        <section class="section"  style="background-color:rgb(129, 3, 3); min-height: 100vh;">
-                                    <div class="section__title p-5">
-                                        <h1 class="section__title-text business-title">your business boost</h1>
-                                    </div>
-                                    <div class="container p-5">
-                                        <div class="row d-flex align-items-stretch">
-                                            <div class="col-md-3 p-3">
-                                                <div class="card skills-card p-3 h-100">
-                                                    <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d00f9ad6a302d7c12d_advantages-icon-01.svg" alt="arrow icon" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title booster">Fast Development</h5>
-                                                        <p class="card-text skills-text">Lightning-speed solutions, bringing your ideas to life in no time.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 p-3">
-                                                <div class="card skills-card p-3 h-100">
-                                                    <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d083cc602f0202ff8c_advantages-icon-02.svg" alt="arrow icon" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title booster">Reliable Performance</h5>
-                                                        <p class="card-text skills-text">Unwavering excellence, delivering consistent results you can trust.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 p-3">
-                                                <div class="card skills-card p-3 h-100">
-                                                    <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d04a43b62d81aec07d_advantages-icon-03.svg" alt="arrow icon" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title booster">Innovative Approach</h5>
-                                                        <p class="card-text skills-text">Trailblazing solutions that
-                                                            redefine possibilities, fueling your
-                                                            success.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 p-3">
-                                                <div class="card skills-card p-3 h-100">
-                                                    <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d15918622871319a27_advantages-icon-04.svg" alt="arrow icon" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title booster">Customer Satisfaction</h5>
-                                                        <p class="card-text skills-text">Delighting clients at every turn, ensuring smiles and success.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                    <section class="section" style="background-color:rgb(129, 3, 3); min-height: 100vh;">
+                        <div class="section__title p-5">
+                            <h1 class="section__title-text business-title">your business boost</h1>
+                        </div>
+                        <div class="container p-5">
+                            <div class="row d-flex align-items-stretch">
+                                <div class="col-md-3 p-3">
+                                    <div class="card skills-card p-3 h-100">
+                                        <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d00f9ad6a302d7c12d_advantages-icon-01.svg"
+                                            alt="arrow icon" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title booster">Fast Development</h5>
+                                            <p class="card-text skills-text">Lightning-speed solutions, bringing your
+                                                ideas to life in no time.
+                                            </p>
                                         </div>
                                     </div>
-
-                        </section>
-
-
-                        <section class="section" id="services" style="min-height: 100vh;">
-                            <div class="section__title p-5">
-
-                                <h2 class="section__title-text" style="white-space: nowrap;">services</h2>
-                                <p class="col-12 text-center" style="margin-top: 20px;">the sky isn't the limit</p>
-
-                            </div>
-                            
-                            <div class="carousel">
-                                <ul class="carousel__list">
-                                <li class="carousel__item" data-pos="-2"><p>Media Production</p></li>
-                                <li class="carousel__item" data-pos="-1">Innovative Development</li>
-                                <li class="carousel__item" data-pos="0"><p>Web Designing</p></li>
-                                <li class="carousel__item" data-pos="1"><p>3D Animation and Modelling</p></li>
-                                <li class="carousel__item" data-pos="2"><p>Social Media Management</p></li>
-                                </ul>
-                            </div>
-                            <div class="carousel-text">
-                                <p>Web Designing</p>
-                            </div>
-                            <div class="slider-nav">
-                                <div class="arrow-prev">
-                                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png">
                                 </div>
-                                <ul class="slider-dots">
-                                    <li class="dot">&bull;</li>
-                                    <li class="dot">&bull;</li>
-                                    <li class="dot">&bull;</li>
-                                    <li class="dot">&bull;</li>
-                                    <li class="dot">&bull;</li>
-                                </ul>
-                                <div class="arrow-next">
-                                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png">
-                                </div>
-                            </div>
-                        
-                        </section> 
-                            
-                        <section class="section" id="contact" style="min-height: 100vh;"> 
-                            <div class="section__title text-dark pt-5"> 
-                                <h2 class="section__title-text">our Contact</h2> 
-                            </div>
-                            <div class="container pb-5">
-                                <div class="row">
-                                    <h1 class="contact-hero-text">Us starts with you</h1>
-                                </div>
-                                <div>
-                                    <h1  class="pt-2" style="color: black;">&</h1>
-                                </div>
-                                <div class="row">
-                                    <div>
-                                        <h1 class="contact-hero-text">We are here to help</h1>
+                                <div class="col-md-3 p-3">
+                                    <div class="card skills-card p-3 h-100">
+                                        <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d083cc602f0202ff8c_advantages-icon-02.svg"
+                                            alt="arrow icon" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title booster">Reliable Performance</h5>
+                                            <p class="card-text skills-text">Unwavering excellence, delivering
+                                                consistent results you can trust.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row pt-4">
-                                    <div class="contact-text-quote text-center">
-                                        <hr class="contact-text-quote-hr">
-                                        <span class="quote-title ">
-                                            <span class="circle mx-2"></span>
-                                            <h1>WANNA TAKE IT TO THE NEXT LEVEL?</h1>
-                                            <span class="circle mx-2"></span>
-                                        </span>
-                                        <hr class="contact-text-quote-hr">
+                                <div class="col-md-3 p-3">
+                                    <div class="card skills-card p-3 h-100">
+                                        <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d04a43b62d81aec07d_advantages-icon-03.svg"
+                                            alt="arrow icon" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title booster">Innovative Approach</h5>
+                                            <p class="card-text skills-text">Trailblazing solutions that
+                                                redefine possibilities, fueling your
+                                                success.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row text-dark p-5">
-                                    <div class="col-md-4 pt-3">
-                                        <h1><a href="#" class="underline-link">whatsapp</a></h1>
-                                    </div>
-                                    <div class="col-md-4 pt-3">
-                                        <h1><a href="#" class="underline-link">instagram</a></h1>
-
-                                    </div>
-                                    <div class="col-md-4 pt-3">
-                                        <h1><a href="#" class="underline-link">linkedin</a></h1>
-
+                                <div class="col-md-3 p-3">
+                                    <div class="card skills-card p-3 h-100">
+                                        <img src="https://uploads-ssl.webflow.com/6396ec4a931167d02148826b/639721d15918622871319a27_advantages-icon-04.svg"
+                                            alt="arrow icon" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title booster">Customer Satisfaction</h5>
+                                            <p class="card-text skills-text">Delighting clients at every turn, ensuring
+                                                smiles and success.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                                
-                            
-                        </section> 
-                        <div class="footerContainer" style="min-height: 8vh;">
-                            <div class="footerSection">Privacy Policy</div>
-                            <div class="footerSection">fe<b>b</b>ruar<b>y</b> '0<b>3</b> '23</div>
-                            <div class="footerSection">© <b>vosnet</b> 2023, all rights reserved</div>
                         </div>
-                        
-                    
-                        
-                    </div> 
+
+                    </section>
+
+
+                    <section class="section" id="services" style="min-height: 100vh;">
+                        <div class="section__title p-5">
+
+                            <h2 class="section__title-text" style="white-space: nowrap;">services</h2>
+                            <p class="col-12 text-center" style="margin-top: 20px;">the sky isn't the limit</p>
+
+                        </div>
+
+                        <div class="carousel">
+                            <ul class="carousel__list">
+                                <li class="carousel__item" data-pos="-2">
+                                    <p>Media Production</p>
+                                </li>
+                                <li class="carousel__item" data-pos="-1">Innovative Development</li>
+                                <li class="carousel__item" data-pos="0">
+                                    <p>Web Designing</p>
+                                </li>
+                                <li class="carousel__item" data-pos="1">
+                                    <p>3D Animation and Modelling</p>
+                                </li>
+                                <li class="carousel__item" data-pos="2">
+                                    <p>Social Media Management</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-text">
+                            <p>Web Designing</p>
+                        </div>
+                        <div class="slider-nav">
+                            <div class="arrow-prev">
+                                <img
+                                    src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png">
+                            </div>
+                            <ul class="slider-dots">
+                                <li class="dot">&bull;</li>
+                                <li class="dot">&bull;</li>
+                                <li class="dot">&bull;</li>
+                                <li class="dot">&bull;</li>
+                                <li class="dot">&bull;</li>
+                            </ul>
+                            <div class="arrow-next">
+                                <img
+                                    src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png">
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section class="section" id="contact" style="min-height: 100vh;">
+                        <div class="section__title text-dark pt-5">
+                            <h2 class="section__title-text">our Contact</h2>
+                        </div>
+                        <div class="container pb-5">
+                            <div class="row">
+                                <h1 class="contact-hero-text">Us starts with you</h1>
+                            </div>
+                            <div>
+                                <h1 class="pt-2" style="color: black;">&</h1>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h1 class="contact-hero-text">We are here to help</h1>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="contact-text-quote text-center">
+                                    <hr class="contact-text-quote-hr">
+                                    <span class="quote-title ">
+                                        <span class="circle mx-2"></span>
+                                        <h1>WANNA TAKE IT TO THE NEXT LEVEL?</h1>
+                                        <span class="circle mx-2"></span>
+                                    </span>
+                                    <hr class="contact-text-quote-hr">
+                                </div>
+                            </div>
+                            <div class="row text-dark p-5">
+                                <div class="col-md-4 pt-3">
+                                    <h1><a href="#" class="underline-link">whatsapp</a></h1>
+                                </div>
+                                <div class="col-md-4 pt-3">
+                                    <h1><a href="#" class="underline-link">instagram</a></h1>
+
+                                </div>
+                                <div class="col-md-4 pt-3">
+                                    <h1><a href="#" class="underline-link">linkedin</a></h1>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </section>
+                    <div class="footerContainer" style="min-height: 8vh;">
+                        <div class="footerSection">Privacy Policy</div>
+                        <div class="footerSection">fe<b>b</b>ruar<b>y</b> '0<b>3</b> '23</div>
+                        <div class="footerSection">© <b>vosnet</b> 2023, all rights reserved</div>
+                    </div>
+
+
+
                 </div>
-                <div class="layout__line"></div> <div class="layout__faboolea" id="myDiv"><a class="layout__faboolea-link" href="mailto:vostechnologiesindia@gmail.com">vosnettechnologies@gmail.com</a></div> </div> 
-                        
-                    
-                    
-                    </main> 
-                        
-                        <script src="index.js"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-                        <script src="script.js"></script>
-    </body>
-    </html>
+            </div>
+            <div class="layout__line"></div>
+            <div class="layout__faboolea" id="myDiv"><a class="layout__faboolea-link"
+                    href="mailto:vostechnologiesindia@gmail.com">vosnettechnologies@gmail.com</a></div>
+        </div>
+
+
+
+    </main>
+    <script>!function () { document.documentElement.className = "js"; var e, t; (t = document.createElement("style")).innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e || alert("Please view this demo in a modern browser that supports CSS Variables.") }();</script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
