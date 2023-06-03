@@ -12,14 +12,15 @@ setInterval(() =>{
 */
 const carouselList = document.querySelector('.carousel__list');
 const carouselItems = document.querySelectorAll('.carousel__item');
+const carouselText = document.querySelector('.carousel-text p');
 const dots = document.querySelectorAll('.dot');
 const prevArrow = document.querySelector('.arrow-prev');
 const nextArrow = document.querySelector('.arrow-next');
 const elems = Array.from(carouselItems);
 
 carouselList.addEventListener('click', function (event) {
-  var newActive = event.target;
-  var isItem = newActive.closest('.carousel__item');
+  const newActive = event.target;
+  const isItem = newActive.closest('.carousel__item');
 
   if (!isItem || newActive.classList.contains('carousel__item_active')) {
     return;
@@ -59,6 +60,8 @@ const update = function (newActive) {
   dots.forEach((dot, index) => {
     dot.classList.toggle('active-dot', index === newActivePos + 2);
   });
+
+  carouselText.textContent = newActive.textContent;
 };
 
 const getPos = function (current, active) {
@@ -70,7 +73,6 @@ const getPos = function (current, active) {
 
   return diff;
 };
-
 
 
 
@@ -96,3 +98,18 @@ window.addEventListener('scroll', function() {
     layoutFaboolea.style.display = 'block';
   }
 });
+
+
+$(document).ready(function() {
+  // Smooth scrolling when a navbar link is clicked
+  $('nav a[data-scroll]').on('click', function(e) {
+    e.preventDefault(); // Prevent the default anchor tag behavior
+    var target = $($(this).data('scroll'));
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+    }
+  });
+});
+
