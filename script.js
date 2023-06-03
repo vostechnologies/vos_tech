@@ -54,3 +54,24 @@ const getPos = function (current, active) {
 
   return diff;
 }
+
+window.addEventListener('scroll', function() {
+  var layoutLine = document.querySelector('.layout__line');
+  var layoutFaboolea = document.querySelector('.layout__faboolea');
+  var windowHeight = window.innerHeight;
+  var documentHeight = Math.max(
+    document.body.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.clientHeight,
+    document.documentElement.scrollHeight,
+    document.documentElement.offsetHeight
+  );
+  var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+  var scrollPercentage = (scrollPosition + windowHeight) / documentHeight * 100;
+
+  if (scrollPercentage >= 90) {
+    layoutFaboolea.style.display = 'none';
+  } else {
+    layoutFaboolea.style.display = 'block';
+  }
+});
