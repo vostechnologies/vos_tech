@@ -15658,15 +15658,15 @@
                 },
                 uStrength: {
                     start: 0,
-                    end: .1
+                    end: -1
                 },
                 uDeepPurple: {
-                    start: 1,
+                    start: -1,
                     end: 1.1
                 },
                 uOpacity: {
                     start: .1,
-                    end: 0
+                    end: -0.5
                 }
             }, this.scene = new jr, this.renderer = new Gr({
                 antialias: !0,

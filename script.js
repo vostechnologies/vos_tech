@@ -10,10 +10,11 @@ setInterval(() =>{
 /*
 * Stacked Cards
 */
-
-const state = {};
 const carouselList = document.querySelector('.carousel__list');
 const carouselItems = document.querySelectorAll('.carousel__item');
+const dots = document.querySelectorAll('.dot');
+const prevArrow = document.querySelector('.arrow-prev');
+const nextArrow = document.querySelector('.arrow-next');
 const elems = Array.from(carouselItems);
 
 carouselList.addEventListener('click', function (event) {
@@ -22,26 +23,41 @@ carouselList.addEventListener('click', function (event) {
 
   if (!isItem || newActive.classList.contains('carousel__item_active')) {
     return;
-  };
-  
+  }
+
   update(newActive);
 });
 
-const update = function(newActive) {
-  const newActivePos = newActive.dataset.pos;
+prevArrow.addEventListener('click', function () {
+  const activeItem = document.querySelector('.carousel__item_active');
+  const currentIndex = elems.findIndex((elem) => elem === activeItem);
+  const prevIndex = (currentIndex === 0) ? elems.length - 1 : currentIndex - 1;
+  const newActive = elems[prevIndex];
 
-  const current = elems.find((elem) => elem.dataset.pos == 0);
-  const prev = elems.find((elem) => elem.dataset.pos == -1);
-  const next = elems.find((elem) => elem.dataset.pos == 1);
-  const first = elems.find((elem) => elem.dataset.pos == -2);
-  const last = elems.find((elem) => elem.dataset.pos == 2);
-  
-  current.classList.remove('carousel__item_active');
-  
-  [current, prev, next, first, last].forEach(item => {
-    var itemPos = item.dataset.pos;
+  update(newActive);
+});
 
-    item.dataset.pos = getPos(itemPos, newActivePos)
+nextArrow.addEventListener('click', function () {
+  const activeItem = document.querySelector('.carousel__item_active');
+  const currentIndex = elems.findIndex((elem) => elem === activeItem);
+  const nextIndex = (currentIndex === elems.length - 1) ? 0 : currentIndex + 1;
+  const newActive = elems[nextIndex];
+
+  update(newActive);
+});
+
+const update = function (newActive) {
+  const newActivePos = parseInt(newActive.dataset.pos);
+
+  carouselItems.forEach(item => {
+    const itemPos = parseInt(item.dataset.pos);
+    const newPos = getPos(itemPos, newActivePos);
+    item.dataset.pos = newPos;
+    item.classList.toggle('carousel__item_active', newPos === 0);
+  });
+
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active-dot', index === newActivePos + 2);
   });
 };
 
@@ -49,11 +65,16 @@ const getPos = function (current, active) {
   const diff = current - active;
 
   if (Math.abs(current - active) > 2) {
-    return -current
+    return -current;
   }
 
   return diff;
-}
+};
+
+
+
+
+
 
 window.addEventListener('scroll', function() {
   var layoutLine = document.querySelector('.layout__line');
