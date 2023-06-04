@@ -2,6 +2,12 @@
     function t(t) {
         return t && t.__esModule ? t.default : t
     }
+    /**
+     * @license
+     * Copyright 2010-2021 Three.js Authors
+     * SPDX-License-Identifier: MIT
+     * sskdnkamwkndlmasknalmn
+     */ // Get visitor's IP address using ipify API
 
 
     const e = 100,
@@ -2237,7 +2243,7 @@
                 normalMatrix: {
                     value: new J
                 }
-            }), this.matrix = new Ot, this.matrixWorld = new Ot, this.matrixAutoUpdate = oe.DefaultMatrixAutoUpdate, this.matrixWorldNeedsUpdate = !1, this.layers = new Xt, this.visible = !0, this.castShadow = !1, this.receiveShadow = !1, this.frustumCulled = !0, this.renderOrder = -100, this.animations = [], this.userData = {}
+            }), this.matrix = new Ot, this.matrixWorld = new Ot, this.matrixAutoUpdate = oe.DefaultMatrixAutoUpdate, this.matrixWorldNeedsUpdate = !1, this.layers = new Xt, this.visible = !0, this.castShadow = !1, this.receiveShadow = !1, this.frustumCulled = !0, this.renderOrder = 0, this.animations = [], this.userData = {}
         }
         onBeforeRender() {}
         onAfterRender() {}
@@ -11517,7 +11523,7 @@
         zo = new st;
     class Oo extends Co {
         constructor() {
-            super(new xn(90, 1, .5, 500)), this._frameExtents = new Z(4, 2), this._viewportCount = 6, this._viewports = [new nt(2, 1, 1, 1), new nt(0, 1, 1, 1), new nt(3, 1, 1, 1), new nt(1, 1, 1, 1), new nt(3, 0, 1, 1), new nt(1, 0, 1, 1)], this._cubeDirections = [new st(1, 0, 0), new st(-1, 0, 0), new st(0, 0, -1), new st(0, 0, -1), new st(0, 1, 0), new st(0, -1, 0)], this._cubeUps = [new st(0, 1, 0), new st(0, 1, 0), new st(0, 1, 0), new st(0, 1, 0), new st(0, 0, -1), new st(0, 0, -1)]
+            super(new xn(90, 1, .5, 500)), this._frameExtents = new Z(4, 2), this._viewportCount = 6, this._viewports = [new nt(2, 1, 1, 1), new nt(0, 1, 1, 1), new nt(3, 1, 1, 1), new nt(1, 1, 1, 1), new nt(3, 0, 1, 1), new nt(1, 0, 1, 1)], this._cubeDirections = [new st(1, 0, 0), new st(-1, 0, 0), new st(0, 0, 1), new st(0, 0, -1), new st(0, 1, 0), new st(0, -1, 0)], this._cubeUps = [new st(0, 1, 0), new st(0, 1, 0), new st(0, 1, 0), new st(0, 1, 0), new st(0, 0, 1), new st(0, 0, -1)]
         }
         updateMatrices(t, e = 0) {
             const n = this.camera,
@@ -15646,32 +15652,32 @@
             }, this.settings = {
                 uFrequency: {
                     start: 0,
-                    end: 5
+                    end: 10
                 },
                 uAmplitude: {
-                    start: 3,
-                    end: 10
+                    start: 1,
+                    end: 15
                 },
                 uDensity: {
                     start: 1,
-                    end: .1
+                    end: 1
                 },
                 uStrength: {
-                    start: 0,
-                    end: -1
+                     start: Math.random() * -1,
+                    end: 0.4
                 },
                 uDeepPurple: {
-                    start: -1,
-                    end: 1.1
+                    start: -40,
+                    end: -1
                 },
                 uOpacity: {
                     start: .1,
-                    end: -0.5
+                    end: .5
                 }
             }, this.scene = new jr, this.renderer = new Gr({
                 antialias: !0,
                 alpha: !0
-            }), this.canvas = this.renderer.domElement, this.camera = new xn(75, this.viewport.width / this.viewport.height, .1, 100), this.clock = new tl, this.smoothScroll = new class {
+            }), this.canvas = this.renderer.domElement, this.camera = new xn(75, this.viewport.width / this.viewport.height, .1, 10), this.clock = new tl, this.smoothScroll = new class {
                 constructor({
                     element: t,
                     viewport: e,
@@ -15707,8 +15713,7 @@
             this.addCanvas(), this.addCamera(), this.addMesh(), this.addEventListeners(), this.onResize(), this.update()
         }
         addCanvas() {
-            this.canvas.classList.add("webgl"),
-            this.canvas.style.zIndex = "-1000",  document.body.appendChild(this.canvas)
+            this.canvas.classList.add("webgl"), this.canvas.style.zIndex = "-1000", document.body.appendChild(this.canvas)
         }
         addCamera() {
             this.camera.position.set(0, 0, 2.5), this.scene.add(this.camera)
@@ -15813,5 +15818,5 @@
         render() {
             this.renderer.render(this.scene, this.camera)
         }
-    }
+    }, console.log("%c Made by ꜰᴀʙᴏᴏʟᴇᴀ → https://twitter.com/faboolea", "background: black; color: white; padding: 1ch 2ch; border-radius: 2rem;")
 }();
